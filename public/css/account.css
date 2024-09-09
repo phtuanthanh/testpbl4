@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    position: fixed;
+    top: 70px; /* Adjusted to avoid overlapping with the header */
+    height: calc(100vh - 70px); /* Ensures the sidebar takes full height minus the header */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+.Main-Content .Content {
+    margin-left: 220px; /* Adjusted to account for the sidebar width */
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.Main-Content .background-avatar {
+    height: 200px;
+    background-color: #58E28F;
+    border-radius: 20px 20px 0 0;
+}
+
+.Main-Content .profile-section {
+    height: 100px;
+    background-color: #ccc;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.Main-Content .avatar-Information {
+    margin-left: 40px;
+}

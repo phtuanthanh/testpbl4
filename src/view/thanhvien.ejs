@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Pro - Thành viên</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/thanhvien.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary-subtle">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">QUIZ PRO</a>
+          <div class="text-center">
+            <img src="/images/avatar.png" class="rounded-circle img-fluid" alt="Avatar" style="width: 40px;">
+          </div>
+        </div>
+    </nav>
+    
+    <!-- Main Container -->
+    <div class="container-fluid" style="padding-top: 70px;"> <!-- Ensure the same top padding as the Kết quả page -->
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-2 bg-light sidebar">
+            <div class="p-3">
+              <h5 class="text-left sidebar-header">Lớp học</h5>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-primary">Lớp A</li>
+                <li class="list-group-item list-group-item-warning">Lớp B</li>
+                <li class="list-group-item list-group-item-info">Lớp C</li>
+                <li class="list-group-item list-group-item-success">Lớp D</li>
+                <li class="list-group-item list-group-item-warning">Lớp E</li>
+                <li class="list-group-item list-group-item-info">Lớp F</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Main Content Area -->
+          <div class="col-md-10">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Lớp A</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Thông báo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="http://localhost:3000/baithi">Bài thi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" href="http://localhost:3000/ketqua">Kết quả</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://localhost:3000/thanhvien">Thành viên</a>
+                  </li>
+              </ul>
+              <button class="btn btn-danger ms-auto">Rời lớp</button>
+            </nav>
+
+            <!-- Member List -->
+            <div class="p-4">
+              <button class="btn btn-primary mb-4">+ Thêm thành viên</button>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Tên</th>
+                    <th scope="col">Vai trò</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Hành động</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="/images/avatar.png" class="rounded-circle" alt="User Avatar" style="width: 30px;"> Nguyễn Văn A</td>
+                    <td>Chủ sở hữu</td>
+                    <td class="text-success">Trực tuyến</td>
+                    <td><button class="btn btn-warning btn-sm">Hành động</button></td>
+                  </tr>
+                  <!-- Repeat rows for other members -->
+                  <tr>
+                    <td><img src="/images/avatar.png" class="rounded-circle" alt="User Avatar" style="width: 30px;"> Nguyễn Văn A</td>
+                    <td>Thành viên</td>
+                    <td class="text-success">Trực tuyến</td>
+                    <td><button class="btn btn-warning btn-sm">Hành động</button></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/images/avatar.png" class="rounded-circle" alt="User Avatar" style="width: 30px;"> Nguyễn Văn A</td>
+                    <td>Thành viên</td>
+                    <td class="text-muted">Ngoại tuyến</td>
+                    <td><button class="btn btn-warning btn-sm">Hành động</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ</title>
+  <link rel="stylesheet" href="/css/account.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar fixed-top navbar-expand-lg bg-primary-subtle">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand" href="#">QUIZ PRO</a>
+      <div class="text-center">
+        <img src="/images/avatar.png" class="rounded-circle img-fluid" alt="Avatar" style="width: 40px;">
+      </div>
+    </div>
+  </nav>
+  <!-- End Header -->
+
+  <!-- Container -->
+  <div class="container-fluid" style="padding-top: 70px;"> <!-- Added padding to prevent overlap with the header -->
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-2 bg-light sidebar position-fixed h-100"> <!-- Sidebar fixed and full height -->
+        <div class="p-3">
+          <h5 class="text-left sidebar-header">Lớp học</h5>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">Lớp A</li>
+            <li class="list-group-item list-group-item-warning">Lớp B</li>
+            <li class="list-group-item list-group-item-info">Lớp C</li>
+            <li class="list-group-item list-group-item-success">Lớp D</li>
+            <li class="list-group-item list-group-item-warning">Lớp E</li>
+            <li class="list-group-item list-group-item-info">Lớp F</li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+
+      <!-- Content -->
+      <div class="col-md-10 offset-md-2"> <!-- Offset the content to account for the fixed sidebar -->
+        <div class="Main-Content">
+          <!-- Section thông tin người dùng -->
+          <div class="background-avatar">
+            <div id="space" style="height: 124px;"></div>
+            <div class="avatar-Information">
+              <img src="/images/avatar.png" class="rounded-circle mb-3" alt="User Avatar" style="width: 175px; margin-top: -110px;">
+            </div>
+          </div>
+
+          <div class="profile-section">
+            <div class="Name d-flex flex-column">
+              <h4>Nguyễn Huy</h4>
+              <p>Mã sinh viên: 123456789</p>
+            </div>
+          </div>
+
+          <ul class="nav nav-tabs mb-4">
+            <li class="nav-item">
+              <a class="nav-link active" href="/components/InformationPage/Information.html">Hồ sơ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/components/InformationPage/Information_ChangePW.html">Mật khẩu</a>
+            </li>
+          </ul>
+
+          <div class="px-3">
+            <label for="text">Mã sinh viên</label>
+            <input type="text" class="form-control form-control-sm" placeholder="102220150" readonly>
+          </div>
+          <form class="p-3">
+            <div class="form-group">
+              <label for="text" class="form-label">Họ tên</label>
+              <input type="text" class="form-control form-control-sm">
+              <label for="text" class="form-label mt-3">Email</label>
+              <input type="email" class="form-control form-control-sm">
+              <label for="text" class="form-label mt-3">Ngày sinh</label>
+              <input type="text" class="form-control form-control-sm">
+              <label for="text" class="form-label mt-3">Ảnh đại diện</label>
+              <br>
+              <img src="/images/avatar.png" class="rounded-circle mb-3" alt="User Avatar" style="width: 70px;">
+              <br>
+              <label for="formFile" class="form-label">Chọn ảnh đại diện mới</label>
+              <input class="form-control" type="file" id="formFile">
+              <button type="submit" class="btn btn-secondary mt-3">Lưu</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- End Content -->
+    </div>
+  </div>
+  <!-- End Container -->
+
+  <!-- Import JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+  }
+  
+  .sidebar-header {
+    color: #6c757d;
+  }
+  .list-group
+  {
+    weight:100px;
+  }
+  .list-group-item-primary {
+    background-color: #add8e6;
+  }
+  
+  .list-group-item-warning {
+    background-color: #ffff99;
+  }
+  
+  .list-group-item-info {
+    background-color: #87ceeb;
+  }
+  
+  .list-group-item-success {
+    background-color: #98fb98;
+  }
+  
+  .navbar {
+    height: 54px;
+  }
+  
+  .exam-item {
+    background-color: #f4e3c2;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  button:disabled {
+    background-color: #b8b8b8;
+  }
+  
