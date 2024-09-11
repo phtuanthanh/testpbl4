@@ -19,6 +19,12 @@ app.get('/ketqua', function (req, res) {
 app.get('/thanhvien', function (req, res) {
   return res.render('thanhvien.ejs')
 })
+app.get('/waiting', function (req, res) {
+  return res.render('waitingroom.ejs')
+})
+app.get('/quiz', function (req, res) {
+  return res.render('Quiz.ejs')
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 }) 

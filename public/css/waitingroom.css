@@ -1,0 +1,88 @@
+/* Tổng quan */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .exam-info p span {
+    margin-right: 40px; /* Tạo khoảng cách giữa các thẻ span */
+  }
+  .leave-btn
+  {
+    margin-left:1090px;
+  }
+  .main-content {
+    margin-top: 60px; /* Khoảng cách từ header xuống nội dung chính */
+  }
+  
+  .navbar {
+    background-color: #003399;
+    height: 60px; /* Đảm bảo chiều cao nhất quán cho header */
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .sidebar {
+    padding: 20px;
+    height: 80vh; /* Chiều cao toàn màn hình */
+    overflow-y: auto; /* Thêm thanh cuộn dọc nếu nội dung vượt quá chiều cao */
+    background-color: #f0f0f0;
+  }
+  
+  
+  .sidebar h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .exam-info {
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .exam-info h1 {
+    font-size: 32px;
+  }
+  
+  .exam-info p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .description-box {
+    width: 100%;
+    height: 200px;
+    background-color: #e0e0e0;
+  }
+  
+  .leave-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .leave-btn:hover {
+    background-color: darkred;
+  }
+  
